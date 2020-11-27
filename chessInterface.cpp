@@ -893,6 +893,7 @@ float evalBoardState(){
 				val += piecepos;
 		}
 	}
+	return val;
 }
 
 int minimax(int depth,int alpha,int beta,bool lastWhite) {
